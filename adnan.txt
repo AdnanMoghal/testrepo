@@ -27,3 +27,8 @@ git rm '*.txt'
 **** mering code from bug_fix branch to current branch which is master branch *****
 git merge bug_fix
 
+**** to delete a branch *****
+git branch -d bug_fix
+
+**** to update changes after deleting a branch *****
+git push
