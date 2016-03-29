@@ -9,3 +9,20 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/AdnanMoghal/testrepo.git
 git push -u origin master
+
+*****for making another branch*****
+git branch bug_fix
+
+****to see number of branches*****
+git branch
+
+****for switching to another branch*****
+git checkout bug_fix
+
+****Removing All The Things *****
+git rm '*.txt'
+
+----After doing changes in antoher branch, switch back to old branch (master) ----
+
+**** mering code from bug_fix branch to current branch which is master branch *****
+git merge bug_fix
